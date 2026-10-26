@@ -38,7 +38,7 @@
           case 'about': line('chagumu 的技术学习与生活记录。总是学习，总在进步。'); line('关于我 →', '/about/'); break;
           case 'skills': line('学习方向：Java、集合框架、LLM、RAG、Agent 与模型优化。'); line('按分类阅读 →', '/categories/'); break;
           case 'blog': line('共 ' + root.dataset.posts + ' 篇文章，首页每页 5 篇。'); line('查看文章归档 →', '/archives/'); break;
-          case 'contact': line('GitHub →', 'https://github.com/chagumu-01'); line('邮箱：3835385985@qq.com'); line('留言板 →', '/comments/'); break;
+          case 'contact': line('GitHub →', 'https://github.com/chagumu01'); line('邮箱：3835385985@qq.com'); line('留言板 →', '/comments/'); break;
           case 'neofetch': line('chagumu@blog / Hexo + Butterfly'); line('Theme: White · Gray · Indigo'); line('Posts: ' + root.dataset.posts); line('SYS_MONITOR：时钟与会话时长实时更新；CPU / MEM / NET 为模拟数据。'); break;
           case 'date': line(new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' }) + ' / 上海'); break;
           case 'joke': line(['世界上有 10 种人：懂二进制的和不懂的。', '一个 SQL 语句走进酒吧，问两张桌子：可以 JOIN 吗？', 'Oct 31 == Dec 25。'][Math.floor(Math.random() * 3)]); break;
@@ -74,4 +74,35 @@
   document.addEventListener('pjax:complete', initialize);
   document.addEventListener('DOMContentLoaded', initialize, { once: true });
   if (document.readyState !== 'loading') initialize();
+})();
+
+/* Draw the signature once in view, or replay with pointer/keyboard. */
+(() => {
+  let observer;
+  function initializeSignature() {
+    if (observer) observer.disconnect();
+    const root = document.querySelector('[data-signature]');
+    if (!root) return;
+    const play = () => {
+      root.classList.remove('is-playing');
+      void root.offsetWidth;
+      root.classList.add('is-playing');
+    };
+    if (!root.dataset.bound) {
+      root.dataset.bound = 'true';
+      root.addEventListener('click', play);
+    }
+    if (!('IntersectionObserver' in window)) { play(); return; }
+    observer = new IntersectionObserver(entries => {
+      if (entries.some(entry => entry.isIntersecting)) {
+        play();
+        observer.disconnect();
+      }
+    }, { threshold: .35 });
+    observer.observe(root);
+  }
+  document.addEventListener('pjax:send', () => { if (observer) observer.disconnect(); });
+  document.addEventListener('pjax:complete', initializeSignature);
+  document.addEventListener('DOMContentLoaded', initializeSignature, { once: true });
+  if (document.readyState !== 'loading') initializeSignature();
 })();

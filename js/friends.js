@@ -1,5 +1,5 @@
 (function () {
-  var GITHUB_REPO = 'chagumu-01/chagumu-01.github.io'
+  var GITHUB_REPO = 'chagumu01/chagumu-01.github.io'
   var SITE_URL = 'https://chagumu.site/'
 
   function reorderSections() {
