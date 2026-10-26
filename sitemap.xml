@@ -20,15 +20,6 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/site/census/index.html</loc>
-    
-    <lastmod>2026-10-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://chagumu.site/site/echarts/index.html</loc>
     
     <lastmod>2026-10-26</lastmod>
@@ -38,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/ai/radar/index.html</loc>
+    <loc>https://chagumu.site/site/census/index.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -56,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/ai/path/index.html</loc>
+    <loc>https://chagumu.site/ai/radar/index.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -65,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/ai/stack/index.html</loc>
+    <loc>https://chagumu.site/ai/path/index.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -83,6 +74,15 @@
   </url>
   
   <url>
+    <loc>https://chagumu.site/ai/stack/index.html</loc>
+    
+    <lastmod>2026-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chagumu.site/ai/index.html</loc>
     
     <lastmod>2026-10-26</lastmod>
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/social/link/index.html</loc>
+    <loc>https://chagumu.site/tags/index.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/tags/index.html</loc>
+    <loc>https://chagumu.site/social/link/index.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -164,25 +164,7 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/java/roadmap/index.html</loc>
-    
-    <lastmod>2026-10-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://chagumu.site/java/stack/index.html</loc>
-    
-    <lastmod>2026-10-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chagumu.site/java/index.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -200,7 +182,16 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/posts/b43bf9d3.html</loc>
+    <loc>https://chagumu.site/java/roadmap/index.html</loc>
+    
+    <lastmod>2026-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chagumu.site/java/index.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -218,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/posts/b62370ab.html</loc>
+    <loc>https://chagumu.site/posts/b43bf9d3.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -245,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/posts/72c7d7d8.html</loc>
+    <loc>https://chagumu.site/posts/b62370ab.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -254,7 +245,7 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/posts/e48005df.html</loc>
+    <loc>https://chagumu.site/posts/72c7d7d8.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -281,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/posts/97b99e75.html</loc>
+    <loc>https://chagumu.site/posts/e48005df.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -299,16 +290,7 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/box/nav/index.html</loc>
-    
-    <lastmod>2026-10-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chagumu.site/box/gallery/index.html</loc>
+    <loc>https://chagumu.site/posts/97b99e75.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -326,7 +308,25 @@
   </url>
   
   <url>
+    <loc>https://chagumu.site/box/nav/index.html</loc>
+    
+    <lastmod>2026-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chagumu.site/collection/index.html</loc>
+    
+    <lastmod>2026-10-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chagumu.site/box/gallery/index.html</loc>
     
     <lastmod>2026-10-26</lastmod>
     
@@ -387,27 +387,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>https://chagumu.site/tags/Java/</loc>
-    <lastmod>2026-10-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://chagumu.site/tags/HashMap/</loc>
-    <lastmod>2026-10-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://chagumu.site/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
-    <lastmod>2026-10-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://chagumu.site/tags/MCP/</loc>
@@ -473,35 +452,21 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/tags/Harness/</loc>
+    <loc>https://chagumu.site/tags/Java/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://chagumu.site/tags/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/</loc>
+    <loc>https://chagumu.site/tags/HashMap/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://chagumu.site/tags/LangChain/</loc>
-    <lastmod>2026-10-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://chagumu.site/tags/LCEL/</loc>
-    <lastmod>2026-10-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://chagumu.site/tags/%E7%9F%A5%E8%AF%86%E6%9B%B4%E6%96%B0/</loc>
+    <loc>https://chagumu.site/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -522,6 +487,20 @@
   </url>
   
   <url>
+    <loc>https://chagumu.site/tags/LangChain/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chagumu.site/tags/LCEL/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://chagumu.site/tags/%E5%A4%9A%E6%A8%A1%E6%80%81/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -536,7 +515,21 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/tags/%E8%87%AA%E6%88%91%E4%BC%98%E5%8C%96/</loc>
+    <loc>https://chagumu.site/tags/Harness/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chagumu.site/tags/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chagumu.site/tags/%E7%9F%A5%E8%AF%86%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -563,14 +556,14 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://chagumu.site/categories/Java/</loc>
+    <loc>https://chagumu.site/tags/%E8%87%AA%E6%88%91%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+
   
   <url>
     <loc>https://chagumu.site/categories/agent/</loc>
@@ -580,7 +573,7 @@
   </url>
   
   <url>
-    <loc>https://chagumu.site/categories/Java/%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/</loc>
+    <loc>https://chagumu.site/categories/Java/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -609,6 +602,13 @@
   
   <url>
     <loc>https://chagumu.site/categories/agent/Agent%E5%B7%A5%E7%A8%8B/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chagumu.site/categories/Java/%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6/</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
