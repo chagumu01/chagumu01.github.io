@@ -4023,7 +4023,7 @@ function processTerminalCommand(cmd, output) {
     ],
     'contact': [
       { type: 'response', text: '📬 联系方式：' },
-      { type: 'link', text: '  GitHub → ', href: 'https://github.com/chagumu-01' },
+      { type: 'link', text: '  GitHub → ', href: 'https://github.com/chagumu01' },
       { type: 'link', text: '  B站 → ', href: 'https://space.bilibili.com/3546706109008142' },
       { type: 'response', text: '  邮箱：3835385985@qq.com' },
     ],
