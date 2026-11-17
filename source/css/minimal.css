@@ -637,14 +637,17 @@ body #body-wrap.post .minimal-tree-children .knowledge-post-sidebar__links a.is-
 body #body-wrap.post .minimal-tree-branch > summary { border-radius: 8px; transition: background-color .2s; }
 body #body-wrap.post .knowledge-post-sidebar__links a:focus-visible { outline: 2px solid var(--minimal-link); outline-offset: 2px; }
 /* Favicon-inspired ink signature, aligned with the writing calendar. */
-.home-signature { position: relative; display: block; box-sizing: border-box; width: 100%; max-width: 100%; min-width: 0; margin: 0 0 48px; padding: 24px 40px; overflow: hidden; border: 1px solid var(--minimal-border); border-radius: 10px; background: var(--minimal-bg); cursor: pointer; }
+.home-signature { --signature-inset: 24px 40px; position: relative; box-sizing: border-box; width: 100%; margin: 0 0 48px; padding: var(--signature-inset); overflow: hidden; border: 1px solid var(--minimal-border); border-radius: 10px; background: var(--minimal-bg); touch-action: none; user-select: none; }
 .home-signature__canvas { display: block; width: 100%; height: auto; max-height: 240px; margin: auto; }
 .home-signature__ink path { stroke-dasharray: 1; stroke-dashoffset: 1; }
 .home-signature.is-playing .home-signature__ink path { animation: signature-write .9s cubic-bezier(.33,0,.35,1) calc(var(--letter, 0) * .7s) both; }
-.home-signature__replay { position: absolute; right: 16px; bottom: 12px; display: grid; place-items: center; width: 30px; height: 30px; border: 1px solid var(--minimal-border); border-radius: 50%; font-size: 20px; color: var(--minimal-muted); opacity: .55; transition: opacity .2s, background-color .2s; }
-.home-signature:hover .home-signature__replay { opacity: 1; background: var(--minimal-surface); }
-.home-signature:focus-visible { outline: 2px solid var(--minimal-link); outline-offset: 4px; }
-[data-theme='dark'] .home-signature__ink { filter: brightness(1.9); }
 @keyframes signature-write { to { stroke-dashoffset: 0; } }
-@media(max-width:600px) { .home-signature { padding: 24px 12px; } .home-signature__replay { width: 24px; height: 24px; font-size: 16px; right: 10px; bottom: 8px; } }
-@media(prefers-reduced-motion:reduce) { .home-signature .home-signature__ink path { animation: none !important; stroke-dashoffset: 0; } }
+@media(prefers-reduced-motion:reduce) { .home-signature .home-signature__ink path { animation: none; stroke-dashoffset: 0; } }
+.home-signature__cut { position: absolute; inset: var(--signature-inset); width: calc(100% - 80px); height: calc(100% - 48px); object-fit: contain; pointer-events: none; }
+.home-signature.has-cuts .home-signature__canvas { opacity: 0; }
+.home-signature__scissors { position: absolute; z-index: 1; pointer-events: none; transform: translate(-75%, -50%); font: 24px/1 sans-serif; color: var(--minimal-text); }
+.home-signature.is-cutting { cursor: none; }
+.home-signature__replay { position: absolute; right: 16px; bottom: 12px; display: grid; place-items: center; width: 30px; height: 30px; padding: 0; border: 1px solid var(--minimal-border); border-radius: 50%; font-size: 20px; color: var(--minimal-muted); opacity: .55; cursor: pointer; transition: opacity .2s, background-color .2s; }
+.home-signature__replay:hover, .home-signature__replay:focus-visible { opacity: 1; background: var(--minimal-surface); }
+[data-theme='dark'] :is(.home-signature__ink, .home-signature__cut) { filter: brightness(1.9); }
+@media(max-width:600px) { .home-signature { --signature-inset: 24px 12px; } .home-signature__cut { width: calc(100% - 24px); } .home-signature__replay { width: 24px; height: 24px; font-size: 16px; right: 10px; bottom: 8px; } }

@@ -82,7 +82,7 @@ block content
               span.home-writing-cell(data-level=level aria-hidden='true')
             span 多
         #writing-calendar-detail.home-writing-detail(aria-live='polite')
-      button.home-signature(type='button' data-signature aria-label='重播 chagumu 签名动画' title='点击重新描画')
+      .home-signature(data-signature)
         svg.home-signature__canvas(viewBox='0 0 760 220' role='img' aria-labelledby='signature-title')
           title#signature-title chagumu
           defs
@@ -99,7 +99,9 @@ block content
             path(pathLength='1' d='M411 91 L401 126 C391 158 422 155 441 122 L452 91 L442 132 Q438 154 462 137' style='--letter:4')
             path(pathLength='1' d='M480 143 L493 91 L482 133 C503 87 529 77 526 102 L516 141 C537 94 567 77 563 103 L555 131 Q549 154 575 136' style='--letter:5')
             path(pathLength='1' d='M599 91 L590 125 C580 158 612 155 630 122 L641 91 L631 130 C624 155 650 150 674 128' style='--letter:6')
-        span.home-signature__replay(aria-hidden='true') ↻
+        canvas.home-signature__cut(width='1520' height='440' aria-hidden='true')
+        span.home-signature__scissors(aria-hidden='true' hidden) ✂
+        button.home-signature__replay(type='button' aria-label='复原 chagumu 签名' title='复原签名') ↻
     section.minimal-articles(aria-labelledby='articles-title')
       .minimal-section-heading
         h2#articles-title= page.current === 1 ? '最新文章' : '文章 · 第 ' + page.current + ' 页'

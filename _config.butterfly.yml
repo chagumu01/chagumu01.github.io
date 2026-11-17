@@ -895,7 +895,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css"> # Existing page-specific components
-    - <link rel="stylesheet" href="/css/minimal.css?v=20261024-1"> # Minimal reading theme
+    - <link rel="stylesheet" href="/css/minimal.css?v=20261117-2"> # Minimal reading theme
     # 综合美化模块样式引入
     - <script src="https://cdn.jsdelivr.net/npm/echarts@6/dist/echarts.min.js"></script>
 
@@ -907,7 +907,7 @@ inject:
     - <script async src="//at.alicdn.com/t/c/font_3636804_gr02jmjr3y9.js"></script> # js图标引入2
     - <script async src="//at.alicdn.com/t/c/font_3612150_kfv55xn3u2g.js"></script> # js图标引入3
     - <script defer src="/js/minimal.js"></script> # Minimal theme interactions
-    - <script defer src="/js/home-dashboard.js?v=20261014-1"></script>
+    - <script defer src="/js/home-dashboard.js?v=20261117-2"></script>
     - <script defer src="/js/writing-calendar.js?v=20261014-1"></script>
     - <script>document.querySelectorAll('a[href*="travellings.cn"]').forEach(function(a){a.target="_blank";a.rel="noopener noreferrer";a.title="开往-友链接力"})</script>
 
