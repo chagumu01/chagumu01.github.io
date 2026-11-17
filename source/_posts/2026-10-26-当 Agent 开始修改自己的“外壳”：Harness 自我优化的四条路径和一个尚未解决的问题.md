@@ -2,7 +2,7 @@
 title: 当 Agent 开始修改自己的“外壳”：Harness 自我优化的四条路径和一个尚未解决的问题
 date: '2026-10-26 14:45:00'
 categories:
-  - AI
+  - agent
 tags:
   - Agent
   - Harness
