@@ -6,7 +6,7 @@ tags:
   - Embedding
 categories:
   - agent
-  - 应用开发
+  - 大模型基础
 mathjax: true
 cover: /assets/indexing.png
 abbrlink: b43bf9d3

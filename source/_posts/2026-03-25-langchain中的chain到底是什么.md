@@ -6,7 +6,7 @@ tags:
   - RAG
 categories:
   - agent
-  - 应用开发
+  - 大模型基础
 mathjax: true
 cover: /assets/chain.png
 abbrlink: 73f49caa
