@@ -6,6 +6,7 @@ updated: '2026-11-24 19:19:49'
 description: 随着 Agent 从简单的对话应用走向复杂的任务执行系统，我们会发现，Agent 开发越来越多地涉及传统后端工程中的技术问题。 例如，Agent 执行长任务时需要状态持久化，多个 Agent 同时运行时需要并发控制，调用外部工具时需要权限管理，执行过程出现异常时需要任务恢复。这些问题在传统软件工程中
 categories:
   - agent
+  - Agent工程
 tags: []
 cover: false
 top_img: false
