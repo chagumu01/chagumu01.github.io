@@ -19,10 +19,21 @@ date: 2022-08-10 16:05:11
 
 <section class="about-section about-journey">
   <h2>学习足迹</h2>
-  <p><strong>大一</strong>：开始接触编程，学习算法。</p>
-  <p><strong>大二上</strong>：决定开始学 Java，然后一直学技术栈。学得全，忘得也快，还是应该先看基础知识，再直接开始做项目，这样知识更牢。寒假学习做两个经典项目。</p>
-  <p><strong>大二下</strong>：了解到大模型，并准备 Java + AI 一起学习。</p>
+  <p>展开一个阶段，看看我走过的路。</p>
+  <details open>
+    <summary>大一 · 从编程与算法开始</summary>
+    <p>开始接触编程，学习算法。</p>
+  </details>
+  <details>
+    <summary>大二上 · 走进 Java</summary>
+    <p>决定开始学 Java，然后一直学技术栈。学得全，忘得也快，还是应该先看基础知识，再直接开始做项目，这样知识更牢。寒假学习做两个经典项目。</p>
+  </details>
+  <details>
+    <summary>大二下 · Java + AI</summary>
+    <p>了解到大模型，并准备 Java + AI 一起学习。</p>
+  </details>
 </section>
+
   </div>
 </div>
 
@@ -172,4 +183,30 @@ date: 2022-08-10 16:05:11
     padding: 15px;
   }
 }
+</style>
+
+<style>
+.about-container { --about-ink: #252645; --about-muted: #666b7c; --about-surface: #fff; --about-line: #e3e5ef; }
+.about-header { background: linear-gradient(135deg, #f0f1fb, #e6f2f3); box-shadow: none; border: 1px solid var(--about-line); }
+.about-section { background: var(--about-surface); border: 1px solid var(--about-line); box-shadow: none; }
+.about-section:hover { transform: none; box-shadow: none; }
+.about-section h2 { border-bottom-color: var(--about-line); color: var(--about-ink); }
+.about-section p { color: var(--about-muted); }
+.about-container details { margin: 12px 0; border: 1px solid var(--about-line); border-radius: 12px; overflow: hidden; transition: border-color .2s; }
+.about-container summary { cursor: pointer; padding: 16px 20px; font-weight: 600; color: var(--about-ink); }
+.about-container summary:hover { background: rgba(104, 111, 192, .08); }
+.about-container summary:focus-visible, .about-container a:focus-visible { outline: 3px solid #727bd1; outline-offset: -3px; }
+.about-container details[open] { border-color: #858bc5; }
+.about-container details[open] summary { background: rgba(104, 111, 192, .08); }
+.about-container details p { padding: 0 20px; margin-top: 16px; }
+.about-container details a { display: inline-block; margin: 0 20px 18px; color: #505ab0; font-weight: 600; }
+.about-avatar { transition: transform .25s; }
+.about-avatar:hover { transform: rotate(-6deg) scale(1.05); }
+[data-theme="dark"] .about-container { --about-ink: #e8e9f2; --about-muted: #b7bbcb; --about-surface: #20222e; --about-line: #393d50; }
+[data-theme="dark"] .about-header { background: linear-gradient(135deg, #25283f, #20363a); }
+[data-theme="dark"] .about-title { color: #e8e9f2; }
+[data-theme="dark"] .about-subtitle { color: #b7bbcb; }
+[data-theme="dark"] .about-container details a { color: #adb6ff; }
+@media (prefers-reduced-motion: reduce) { .about-container * { transition: none !important; } }
+@media (max-width: 600px) { .about-container summary { padding: 16px; } .about-section { padding: 16px; } }
 </style>
